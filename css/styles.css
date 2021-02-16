@@ -168,3 +168,41 @@ a {
   justify-content: center;
   align-items: center;
 }
+
+/* buttons*/
+
+.button {
+  font-size: 1rem;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  align-content: center;
+  justify-content: center;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+}
+
+.button--primary {
+  background-color: var(--color-accent);
+  border-style: line;
+  color: #ffff;
+  height: 100%;
+}
+
+.button--secondary {
+  color: var(--color-headings);
+  border: solid;
+  border-color: var(--color-headings);
+  width: 100%;
+}
+
+.button--secondary:hover {
+  background-color: var(--color-headings);
+  color: #fff;
+  transition: 0.3s;
+}
+
+.button--third {
+  background: var(--color-secondary);
+  color: #fff;
+}
